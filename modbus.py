@@ -65,5 +65,4 @@ class modbus_getwate:
             return val
     def read(self,reg_addr,reg_type,pld_type=0,pld_param=0,diff=0):
         return self.__val_diff(reg_addr,reg_type,pld_type,pld_param,diff)
-
-
+print("oll")
