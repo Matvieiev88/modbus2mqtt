@@ -1,4 +1,4 @@
-import config
+#import config
 from pyModbusTCP.client import ModbusClient
 
 class modbus_getwate:
